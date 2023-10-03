@@ -6,8 +6,3 @@ string = "myth"
 len(string)
 
 
-
-sub_string =[]
-for i in range(len(string)):
-    for j in range(i+1,len(string)+1):
-       sub_string.append(string[i:j])
